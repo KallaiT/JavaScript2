@@ -1,8 +1,8 @@
-const emberek = ['Kata', 'Sára']
+const emberek = ['Kata', 'Sára', 'Peti', 'Sanyi']
 const container = document.querySelector('#container')
 
 for (const ember of emberek) {
-  div = document.createElement('div')
+  const div = document.createElement('div')
   div.innerText = ember
   container.appendChild(div)
   console.log(emberek)
